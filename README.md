@@ -69,6 +69,17 @@ Wait a small delay
 6- Repeat Step 5 forever (keep holding at 90°)
 
 
+# Circuit in Tinkercad 
+
+
+
+<img width="531" height="330" alt="Image" src="https://github.com/user-attachments/assets/f5c8f7f1-fceb-4c03-aa07-fd32834bb824" />
+
+
+
+
+
+
 
 
 
