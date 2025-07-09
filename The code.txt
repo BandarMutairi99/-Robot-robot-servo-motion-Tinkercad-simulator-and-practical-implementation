@@ -1,0 +1,44 @@
+#include <Servo.h>
+
+Servo myservo;
+Servo myservo1;
+Servo myservo2;
+Servo myservo3;
+int pos =0;
+unsigned long startTime;
+
+void setup() {
+  myservo.attach(9);
+  myservo1.attach(10);
+  myservo2.attach(11);
+  myservo3.attach(12);
+
+  startTime = millis();
+}
+
+void loop() {
+  // Run sweep for only 2 seconds
+  if (millis() - startTime <= 2000) {
+    for (pos = 0; pos <= 90; pos++) {
+      myservo.write(pos);
+      myservo1.write(pos);
+      myservo2.write(pos);
+      myservo3.write(pos);
+      delay(10);
+    }
+
+    for (pos = 90; pos >= 0; pos--) {
+      myservo.write(pos);
+      myservo1.write(pos);
+      myservo2.write(pos);
+      myservo3.write(pos);
+      delay(10);
+    }
+  } else {
+    // After 2 seconds, hold all servos at 90 degrees
+    myservo.write(90);
+    myservo1.write(90);
+    myservo2.write(90);
+    myservo3.write(90);
+  }
+}
