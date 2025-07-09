@@ -76,6 +76,47 @@ Wait a small delay
 <img width="531" height="330" alt="Image" src="https://github.com/user-attachments/assets/f5c8f7f1-fceb-4c03-aa07-fd32834bb824" />
 
 
+# Circuit in physical
+
+
+
+
+
+
+
+
+
+# Circuit Explanation
+
+
+Arduino UNO is used as the controller.
+
+Four servo motors are connected to digital PWM pins:
+
+D9 → Servo 1
+
+D10 → Servo 2
+
+D11 → Servo 3
+
+D12 → Servo 4
+
+The signal wires (green) are connected to the respective digital pins.
+
+All servos are powered through the breadboard power rails:
+
+Red (VCC) → 5V pin from Arduino
+
+Black (GND) → GND pin from Arduino
+
+# References
+Arduino Sweep Servo Example
+https://www.arduino.cc/en/Tutorial/LibraryExamples/Sweep
+
+ 
+
+
+
 
 
 
