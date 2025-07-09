@@ -78,7 +78,7 @@ Wait a small delay
 
 # Circuit in physical
 
-
+https://github.com/user-attachments/assets/ed70ebd4-daf5-4253-a890-864c982c78fc
 
 
 
