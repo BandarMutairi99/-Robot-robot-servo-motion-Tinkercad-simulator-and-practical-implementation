@@ -69,11 +69,18 @@ Wait a small delay
 6- Repeat Step 5 forever (keep holding at 90°)
 
 
+
+
+
 # Circuit in Tinkercad 
 
 
 
+
+
 <img width="531" height="330" alt="Image" src="https://github.com/user-attachments/assets/f5c8f7f1-fceb-4c03-aa07-fd32834bb824" />
+
+
 
 
 # Circuit in physical
@@ -87,6 +94,8 @@ https://github.com/user-attachments/assets/ed70ebd4-daf5-4253-a890-864c982c78fc
 
 
 # Circuit Explanation
+
+
 
 
 Arduino UNO is used as the controller.
