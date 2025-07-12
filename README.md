@@ -56,7 +56,7 @@ For positions from 0° to 90°:
 
 Move all 4 servos to the current position
 
-Wait a small delay (e.g. 10ms)
+Wait a small delay (10ms)
 
 For positions from 90° to 0°:
 
